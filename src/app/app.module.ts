@@ -7,19 +7,20 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { ResetPasswordComponent } from './reset-password/reset-password.component';
 import { LayOutModule } from './Master/lay-out.module';
-
+import { AgGridModule } from 'ag-grid-angular';
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     ResetPasswordComponent
   ],
+  
   imports: [
     BrowserModule,
     LayOutModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule, AgGridModule.withComponents([])
   ],
   providers: [],
   bootstrap: [AppComponent]

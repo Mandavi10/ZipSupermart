@@ -20,6 +20,8 @@
     "@angular/platform-browser-dynamic": "~7.1.0",
     "@angular/router": "~7.1.0",
     "@coreui/angular": "^2.9.4",
+    "ag-grid-angular": "^24.1.0",
+    "ag-grid-community": "^24.1.0",
     "core-js": "^2.5.4",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
